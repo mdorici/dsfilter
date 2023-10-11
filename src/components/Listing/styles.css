@@ -1,0 +1,20 @@
+.card-product {
+    height: 53px;
+    background-color: var(--color-bg-secundary);
+    border: 1px solid var(--color-bg-primary);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-family: 400;
+    font-size: 12px;
+    color: var(--color-font-quaternary);
+}
+
+.product-price {
+    font-family: 700;
+    font-size: 16px;
+    color: var(--color-font-tertiary);    
+}

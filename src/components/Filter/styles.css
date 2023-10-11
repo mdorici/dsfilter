@@ -1,0 +1,42 @@
+.searchSection {
+    border-radius: 5px;
+    background-color: var(--color-bg-secundary);
+    padding: 20px;
+    height: 200px;
+}
+
+.searchProdF input:focus {
+    outline: none;
+}
+
+.searchProdF {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchProd {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--color-font-secundary);
+    margin-bottom: 20px;
+}
+
+.searchProd::placeholder {
+    color: var(--color-font-secundary);
+}
+
+.buttonSub {
+    border-radius: 4px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-primary);
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
