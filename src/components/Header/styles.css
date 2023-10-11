@@ -1,0 +1,21 @@
+header {
+    height: 70px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-primary);
+}
+
+.dsf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.products-count {
+    font-size: 12px;
+    font-weight: 700;
+}
